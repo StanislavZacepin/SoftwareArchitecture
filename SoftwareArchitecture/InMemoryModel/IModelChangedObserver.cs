@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace SoftwareArchitecture.InMemoryModel
 {
     /// <summary>
-    /// Наблюдатель с измененной моделью
+    /// Наблюдатель с измененной моделью.
     /// </summary>
     internal interface IModelChangedObserver
     {
         /// <summary>
-        /// Применить модель обновления
+        /// Применить модель обновления.
         /// </summary>
         public void ApplyUpdateModel();
     }
