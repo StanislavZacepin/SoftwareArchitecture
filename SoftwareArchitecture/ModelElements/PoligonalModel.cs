@@ -14,12 +14,12 @@ namespace SoftwareArchitecture.ModelElements
         /// <summary>
         /// Многоугольники.
         /// </summary>
-        public Poligon? Poligons;
+        //public Poligon? Poligons;
 
         /// <summary>
         /// Текстуры.
         /// </summary>
-        public Texture? Textures;
+        //public Texture? Textures;
     }
 
 }
