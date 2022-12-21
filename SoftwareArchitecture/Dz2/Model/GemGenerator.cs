@@ -9,8 +9,15 @@ using System.Threading.Tasks;
 
 namespace SoftwareArchitecture.Dz2.Model
 {
+    /// <summary>
+    /// Фабрика
+    /// </summary>
     internal class GemGenerator : ItemGenerator
     {
+        /// <summary>
+        /// Переоприделения от наследуемоего асбтрактнаго класса ItemGenerator создания новго придмета
+        /// </summary>
+        /// <returns></returns>
         public override GameItem createItem()
         {
             return new GemReward();

@@ -7,8 +7,14 @@ using System.Threading.Tasks;
 
 namespace SoftwareArchitecture.Dz2.Entity
 {
+    /// <summary>
+    /// Гем
+    /// </summary>
     internal class GemReward : GameItem
     {
+        /// <summary>
+        /// метод для вызывания придмета в консоль
+        /// </summary>
         public void open()
         {
             Console.WriteLine("Gem");
