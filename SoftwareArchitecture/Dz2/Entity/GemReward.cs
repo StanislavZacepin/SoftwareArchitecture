@@ -15,3 +15,4 @@ namespace SoftwareArchitecture.Dz2.Entity
         }
     }
 }
+
