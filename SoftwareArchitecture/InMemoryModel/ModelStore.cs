@@ -20,7 +20,7 @@ namespace SoftwareArchitecture.InMemoryModel
         /// <summary>
         /// Сцены.
         /// </summary>
-        public Scene<?> Scenes;
+        public Scene<object> Scenes;
 
         /// <summary>
         /// Вспышки.
@@ -42,10 +42,10 @@ namespace SoftwareArchitecture.InMemoryModel
         /// </summary>
         /// <param name="Type"></param>
         /// <returns></returns>
-        public Scene GetScena(int Type)
+        /*public Scene<object> GetScena(object Type)
         {
-            return;
-        }
+            return Type;
+        }*/
 
         /// <summary>
         /// Изменение уведомления.
