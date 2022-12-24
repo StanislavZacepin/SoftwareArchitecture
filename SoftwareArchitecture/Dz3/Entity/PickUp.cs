@@ -12,10 +12,7 @@ namespace SoftwareArchitecture.Dz3.Entity
     {
         public int loadCapacity { get; set; }
 
-        public void fuel()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public void wipHeadLight()
         {

@@ -11,19 +11,6 @@ namespace SoftwareArchitecture.Dz3.Entity
 {
     public class Porter : Car
     {
-        public bool CheckFuel(double Fuel)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool CheckFuelTank(TypeFuel TypeFuel)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void fuel()
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

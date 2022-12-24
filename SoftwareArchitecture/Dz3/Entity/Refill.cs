@@ -12,10 +12,7 @@ namespace SoftwareArchitecture.Dz3.Entity
     public class Refill : iRefueling, iWipe
     {
 
-        TypeFuel typeFuelBenz = TypeFuel.BENZINE;
-        TypeFuel typeFuelGaz = TypeFuel.GASOLIN;
-        TypeFuel typeFuelDizel = TypeFuel.DIESEL;
-        TypeFuel typeFuelELect = TypeFuel.ELECTRICITY;
+        
 
         Car car;
      
